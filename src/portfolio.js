@@ -20,8 +20,8 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Bharath Kumar Sampath",
+  title: "Hi all, I'm Bharath",
   subTitle: emoji(
     "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
   ),
@@ -33,11 +33,11 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
+  github: "https://github.com/bharathkumar223",
+  linkedin: "https://www.linkedin.com/in/bharath-kumar-sampath-811156157/",
+  gmail: "bharaths223@gmail.com",
+  gitlab: "https://gitlab.com/bharathkumar223",
+  facebook: "https://www.facebook.com/profile.php?id=100011254807345",
   medium: "https://medium.com/@saadpasta",
   stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
@@ -126,21 +126,21 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Lehigh University",
+      logo: require("./assets/images/lehighLogo.png"),
+      subHeader: "Master of Engineering in Management Science and Engineering",
+      duration: "January 2022 - December 2023",
+      desc: "Participated in the research of Multimodal fake news detection and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
+      schoolName: "Vellore Institute of Technology",
+      logo: require("./assets/images/VITLogo.png"),
       subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
+      duration: "June 2015 - May 2019",
       desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
     }
@@ -175,28 +175,28 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      company: "MoneyView",
+      companylogo: require("./assets/images/moneyview.webp"),
+      date: "January 2019 – August 2020",
+      desc: "Revolutionized loan repayment for customers by expertly designing and developing a streamlined payment system, complete with flexible scheduling options, to maximize efficiency and drive business growth",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Elevated loan management efficiency by creating powerful dashboard applications, enabling monitoring and maintenance of customer profiles and disbursed loans, resulting in increased productivity and improved customer satisfaction.",
+        //"Optimized website performance by utilizing Handlebars, resulting in a 30% increase in loading time, and collaborated effectively with the production team to swiftly resolve code bugs to ensure a seamless user experience."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Software Developer Intern",
+      company: "Motorvate",
+      companylogo: require("./assets/images/motorvateLogo.png"),
+      date: "May 2023 – Present",
+      desc: "Designed and developed a user-friendly front-end web interface, utilizing AWS lamda, facilitating communication to the customers by the vehicle shop owners on the platform Motorvate through service forms."
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      company: "Sserman Propman",
+      companylogo: require("./assets/images/ssermanpropmanLogo.jpg"),
+      date: "May 2023 – Present",
+      desc: "Engineered a robust backend system and user-friendly web front-end application interface, powering property management planning for over 30 property management companies, to drive business success.."
     }
   ]
 };
@@ -252,11 +252,11 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "MoneyView Hackathone Finalist",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "First Intern to be selected as MoneyView Hackathon Finalist from 14 students from 21 different states.",
+      image: require("./assets/images/moneyviewHackathoneLogo.png"),
+      imageAlt: "Moneyview Hackathone Finalist",
       footerLink: [
         {
           name: "Certification",
@@ -273,15 +273,15 @@ const achievementSection = {
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Coursera Certification",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Completed a Neural Networks and Deep Learning certification with Andrew Ng, a notable member of Machine learning Community",
+      image: require("./assets/images/certificationOne.png"),
+      imageAlt: "Neural Networks and Deep Learning certification Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "View Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/UCFCXKSY3TW7"
         }
       ]
     },
@@ -363,8 +363,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-8106657035",
+  email_address: "bharaths223@gmail.com"
 };
 
 // Twitter Section
